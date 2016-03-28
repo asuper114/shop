@@ -4,7 +4,8 @@ data/uploads/2014/**/*__*_*.*
 data/uploads/2014/**/*_w_h.*
 data/uploads/2015/*
 themes-sass/
-
+cache/
+runtime/
 .tags
 .tags_sorted_by_file
 install.lock
