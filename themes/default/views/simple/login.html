@@ -21,17 +21,6 @@
 <div class="login-note mt20">
 	<ul>
 		<li><h1>还不是会员？ <a href="{url:/simple/reg}" class="red">免费注册</a></h1></li>
-		{if:!empty($oauth_login)}
-		<li class="mt20">
-			<dl>
-				<dt>你可以使用以下账号登录：</dt>
-				<dd class="mt15 outh-list">{list:items=$oauth_login}
-					<a href="{$item['url']}"><img src="{url:@protected/classes/oauth/logo/$item[icon]}" ><div class="tc">{$key}</div></a>
-					{/list}
-				</dd>
-			</dl>
-		</li>
-		{/if}
 	</ul>
 	<div class="tc"></div>
 </div>
